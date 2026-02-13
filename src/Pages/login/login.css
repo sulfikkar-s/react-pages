@@ -1,0 +1,42 @@
+
+.inter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.face form {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  height: auto;
+  
+}
+
+.face input,
+.face button {
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.412);
+  border-radius: 6px;
+}
+
+.face input:hover{
+  border-color: rgba(121, 224, 48, 0.375);
+}
+
+.face button {
+  background-color:rgb(252, 213, 213);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgba(183, 245, 132, 0.867);
+}

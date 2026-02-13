@@ -1,0 +1,30 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.home{
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  text-align: center ;
+  width: 100%;
+  background-color: rgb(198, 178, 168);
+  height: 100vh;
+  gap: 10px;
+ justify-content: center;
+  flex-direction: column;
+  
+}
+
+.home button{
+  padding: 15px 30px;
+  background-color: rgb(252, 213, 213);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  
+
+}
+.home{
+      background-color: #f3f0ff;
+}

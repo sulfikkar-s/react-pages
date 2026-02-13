@@ -1,0 +1,52 @@
+body{
+  background: linear-gradient(
+  to right,
+  rgb(255, 220, 220),
+  rgb(255, 255, 255)
+);
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card form {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.card input,
+.card button {
+  padding: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.412);
+  border-radius: 6px;
+}
+
+.card input:hover{
+  border: 2px solid rgba(121, 224, 48, 0.515);
+}
+
+.card button {
+  background-color:rgb(252, 213, 213);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+span{
+  color:rgb(230, 136, 136);
+}
+button:hover {
+  background-color: rgba(252, 213, 213, 0.548);
+}
